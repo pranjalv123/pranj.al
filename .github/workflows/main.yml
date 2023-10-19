@@ -29,7 +29,6 @@ jobs:
       working-directory: ./www
     - name: List files
       run: ls -R
-    - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
         args:  --follow-symlinks --delete --exclude '.git/*' #--acl public-read
