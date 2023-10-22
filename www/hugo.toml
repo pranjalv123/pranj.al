@@ -6,6 +6,10 @@ enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
+[author]
+email = 'pr@nj.al'
+name = 'Pranjal Vachaspati'
+
 [params]
 description = "Pranjal Vachaspati"
 copyright = "Copyright © 2023 Pranjal Vachaspati"
@@ -33,3 +37,6 @@ posts = "/:title/"
 [markup.goldmark.renderer]
 # Allows HTML in Markdown
 unsafe = true
+
+[outputs]
+home = ["html", "rss"]
