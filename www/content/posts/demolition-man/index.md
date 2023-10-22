@@ -1,7 +1,6 @@
 +++
 title = 'Demolition, Man'
 date = 2023-10-18T23:01:35-04:00
-draft = true
 +++
 
 We bought a house. It's a fixer-upper.
