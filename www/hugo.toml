@@ -40,3 +40,7 @@ unsafe = true
 
 [outputs]
 home = ["html", "rss"]
+
+[services]
+[services.googleAnalytics]
+ID = 'UA-30331268-1'
